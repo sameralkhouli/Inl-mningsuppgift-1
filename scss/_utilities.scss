@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: $bread-font;
+}
+
+html, body {
+    font-size: 18px;
+   font-weight: 400;
+   color: $color-main;
+
+
+}
+
+.border{
+    border: 1px solid $color-main;
+    opacity: 15%;
+}
+.border-line{
+    border-bottom: 1px solid $color-main;
+    opacity: 15%;
+}
+
+.container{
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;   
+
+@include md { max-width: $breakpoint-md-max-width; }
+@include lg { max-width: $breakpoint-lg-max-width; }
+@include xl { max-width: $breakpoint-xl-max-width; }
+@include xxl { max-width: $breakpoint-xxl-max-width; }
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 15px 24px;
+    @include roboto-medium;
+    cursor: pointer;
+} 
+
+.btn-outline-orange {
+    border-color: $color-orange;
+}
+
