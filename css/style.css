@@ -9,7 +9,8 @@ html, body {
   font-size: 18px;
   font-weight: normal;
   color: #90949b;
-  background-color: #F8F9FE;
+  background-image: url(/images/BG.svg);
+  background-repeat: no-repeat;
   scroll-behavior: smooth;
 }
 
