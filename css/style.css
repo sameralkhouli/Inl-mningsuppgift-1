@@ -317,6 +317,22 @@ img {
   color: #252525;
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: 50%;
+    justify-content: center;
+  }
+
+  html, body {
+    background-image: none;
+    background-color: ghostwhite;
+  }
+
+  #news > .container-news {
+    align-items: center;
+    text-align: center;
+  }
+}
 #navbar .container {
   margin-top: 10px;
   display: flex;
@@ -349,6 +365,11 @@ img {
   margin-right: 1.563rem;
 }
 
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+}
 .nav-link {
   text-decoration: none;
   color: black;
@@ -416,6 +437,12 @@ button:hover {
   left: 130px;
 }
 
+@media (max-width: 768px) {
+  .place1 {
+    top: 800px;
+    left: 200px;
+  }
+}
 .place2 {
   position: absolute;
   top: 182rem;

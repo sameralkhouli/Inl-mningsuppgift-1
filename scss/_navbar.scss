@@ -14,7 +14,8 @@
     border-bottom: 1px solid #b9b9be ;
     border-radius: 6px;
        }
-  
+
+       
 
 .navbar-brand {
    img { width: 250px; }
@@ -30,6 +31,16 @@
    margin-left: 5px;
    margin-right: 1.563rem;
        }
+
+       @media (max-width: 768px) {
+               .navbar-links{
+                    display: none;
+                    
+                     }
+                    
+                  }
+
+
 
 .nav-link{
         text-decoration: none;

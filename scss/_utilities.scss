@@ -10,12 +10,10 @@ html, body {
    color: $color-main;
    background-image: url(/images/BG.svg);
    background-repeat:no-repeat;
-   
    scroll-behavior:smooth;
    }
+   
 
-  
-    
   
    .border{
        border: 2px, solid black;
@@ -32,7 +30,7 @@ html, body {
    
  }
     
-  
+ 
   .top-text{
     display: grid;
     grid-template-columns: 1f;
@@ -40,7 +38,7 @@ html, body {
     justify-content: left;
     margin: 0px;
     padding: 130px;
-
+    
   }
 
   .container-grid1{
@@ -335,3 +333,13 @@ p9{
   color: #252525;
 }
 
+@media (max-width: 768px) {
+  .container{width: 50%; justify-content: center;}
+  html, body 
+        {background-image: none;background-color:ghostwhite;}
+        #news > .container-news {
+          align-items: center;
+          text-align: center;
+                }
+        
+}
