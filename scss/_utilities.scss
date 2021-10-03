@@ -333,13 +333,3 @@ p9{
   color: #252525;
 }
 
-@media (max-width: 768px) {
-  .container{width: 50%; justify-content: center;}
-  html, body 
-        {background-image: none;background-color:ghostwhite;}
-        #news > .container-news {
-          align-items: center;
-          text-align: center;
-                }
-        
-}
